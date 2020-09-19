@@ -9,7 +9,8 @@ function preload() {
 function setup() {
     createCanvas(document.documentElement.clientWidth, document.documentElement.clientHeight);
     background(0, 0, 0, 0);
-    errSound.play()
+    errSound.setVolume(0.2);
+    errSound.play();
     image(errImg, width/2 - 150, height/2 - 60)
   }
 
