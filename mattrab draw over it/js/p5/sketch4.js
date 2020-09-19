@@ -10,7 +10,7 @@ function setup() {
     createCanvas(document.documentElement.clientWidth, document.documentElement.clientHeight);
     background(0, 0, 0, 0);
     errSound.play()
-    image(errImg, height/2 - 60, width/2 - 150)
+    image(errImg, width/2 - 150, height/2 - 60)
   }
 
   function mouseMoved() {
