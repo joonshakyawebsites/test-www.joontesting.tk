@@ -10,13 +10,12 @@ function setup() {
     createCanvas(document.documentElement.clientWidth, document.documentElement.clientHeight);
     background(0, 0, 0, 0);
     errSound.play()
+    image(errImg, height/2 - 60, width/2 - 150)
   }
 
   function mouseMoved() {
     if (mouseX != 0 && mouseY != 0) {
         image(errImg, mouseX - 150, mouseY - 10)
-        
-            errSound.play();
-        
+        errSound.play();
     }
   }
