@@ -14,14 +14,11 @@ function setup() {
   }
 
   function mouseMoved() {
-    if (mouseX != 0 && mouseY != 0) {
         image(errImg, mouseX - 150, mouseY - 10)
         errSound.play();
-    }
+    
   }
 function mouseDragged() {
-  if (mouseX != 0 && mouseY != 0) {
       image(errImg, mouseX - 150, mouseY - 10)
       errSound.play();
-  }
 }
