@@ -1,24 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <script language="javascript" type="text/javascript" src="./js/p5/p5.min.js"></script>
-  <script language="javascript" type="text/javascript" src="./js/p5/p5.dom.min.js"></script>
-  <script language="javascript" type="text/javascript" src="./js/p5/p5.sound.min.js"></script>
-  <!-- <script language="javascript" type="text/javascript" src="./js/p5/p5.easycam.min.js"></script> -->
-  <!-- 
-  <script language="javascript" type="text/javascript"
-    src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
-  <script language="javascript" type="text/javascript"
-    src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.dom.min.js"></script> -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ::-moz-selection { /* Code for Firefox */
+  color: black;
+  background: transparent;
+}
 
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <meta charset="utf-8">
+::selection {
+  color: black;
+  background: transparent;
+}
+    </style>
 </head>
-
-<body>
-  <script language="javascript" type="text/javascript" src="./js/p5/sketch4.js"></script>
-
+<body style="margin: 0; padding: 0;">
+    <div style="height: 100vh; display: flex; align-items: center; justify-content: center;">
+        <img src="./Error Message.png" alt="error">
+    </div>
 </body>
-
+<script>
+    var audio = new Audio('Error Message.mp3');
+    audio.play();
+</script>
 </html>
