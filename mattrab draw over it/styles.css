@@ -10,3 +10,9 @@
     right: 0 !important;
     top: 0 !important;
 }
+
+.note-video-clip {
+  height: 100vh !important;
+  width: 100vw !important;
+  z-index: 1031 !important;
+}
