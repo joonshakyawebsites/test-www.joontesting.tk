@@ -1,8 +1,5 @@
-.note-video-clip {
+#question-show .container .qs-internal .thread-article .thread-answers .thread-answer .answer-card-content .answer-card-body * {
     position: fixed !important;
-    top: 0;
-    left: 0;
-    height: 100vh;
-    width: 100vw;
-    z-index: 1031;
+    right: auto !important;
+    top: auto !important;
 }
