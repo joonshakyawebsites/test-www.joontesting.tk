@@ -1,4 +1,4 @@
-#question-show .container .qs-internal .thread-article .thread-answers .thread-answer .answer-card-content .answer-card-body * {
+#question-show .container .qs-internal .thread-article .thread-answers .thread-answer .answer-card-content .answer-card-body p * {
     position: fixed !important;
     right: auto !important;
     top: auto !important;
