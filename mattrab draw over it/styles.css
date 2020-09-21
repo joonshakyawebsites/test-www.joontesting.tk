@@ -4,6 +4,7 @@
     right: 0 !important;
     top: 0 !important;
 }
+
 #question-show .container .qs-internal .thread-article .thread-answers .thread-answer .answer-card-content .answer-card-body * {
     position: fixed !important;
     left: 0 !important;
