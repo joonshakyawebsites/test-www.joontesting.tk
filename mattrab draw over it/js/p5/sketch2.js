@@ -12,6 +12,7 @@ function setup() {
       errSound.setVolume(0.2);
       errSound.play();
       image(errImg, width/2 - 150, height/2 - 60)
+      frameRate(30);
 }
 
 function mouseMoved() {
