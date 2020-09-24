@@ -8,7 +8,7 @@ function setup() {
     createCanvas(document.documentElement.clientWidth, document.documentElement.clientHeight);
     background(0, 0, 0, 0);
     fill(0)
-    textSize(18);
+    textSize(16);
     textAlign(LEFT, TOP);
     text('Click here to find out', 0,0)
 }
