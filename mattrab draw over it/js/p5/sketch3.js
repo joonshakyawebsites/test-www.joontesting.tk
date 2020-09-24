@@ -7,9 +7,15 @@ function preload() {
 function setup() {
     createCanvas(document.documentElement.clientWidth, document.documentElement.clientHeight);
     background(0, 0, 0, 0);
+    fill(0)
+    textSize(18);
+    textAlign(LEFT, TOP);
+    text('Click here to find out', 0,0)
 }
 
 function mousePressed() {
+    clear();
+    text('MrBeast!', 0,0)
     if (!song.isPlaying()) {
         song.play();
     }
