@@ -14,7 +14,7 @@ function setup() {
       image(errImg, width/2 - 150, height/2 - 60)
 }
 
-function mousePressed() {
+function mouseMoved() {
       image(errImg, mouseX - 150, mouseY - 10)
       errSound.play();
 }
