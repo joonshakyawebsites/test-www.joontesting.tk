@@ -9,7 +9,7 @@ function setup() {
     background(0, 0, 0, 0);
 }
 
-function mouseMoved() {
+function draw() {
     if (!song.isPlaying()) {
         song.play();
     }
