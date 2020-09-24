@@ -1,5 +1,5 @@
 let errImg, errSound;
-let prevX, prevY;
+let start = false;
 
 function preload() {
     errImg = loadImage('Error Message.png')
@@ -15,11 +15,18 @@ function setup() {
 }
 
 function mouseMoved() {
-      image(errImg, mouseX - 150, mouseY - 10)
-      errSound.play();
+      if (start) {
+            image(errImg, mouseX - 150, mouseY - 10)
+            errSound.play();
+      }
 }
 
 function mouseDragged() {
       image(errImg, mouseX - 150, mouseY - 10)
       errSound.play();
+}
+function mousePressed() {
+      image(errImg, mouseX - 150, mouseY - 10)
+      errSound.play();
+      start = true;
 }
