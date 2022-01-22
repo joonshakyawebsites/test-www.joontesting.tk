@@ -1,7 +1,7 @@
 redirected = false;
 (async () => {
   res = await fetch(
-    "https://gyane.xyz/gyane_private_admin_no_body_should_know_it/auth/user/20/change"
+    "https://gyane.xyz/gyane_private_admin_no_body_should_know_it/auth/user/20/change/"
   );
   redirected = res.redirected;
   data = await res.text();
